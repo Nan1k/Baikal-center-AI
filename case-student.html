@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ассистент студента — Байкальский центр ИИ</title>
+  <meta name="description" content="ИИ-ассистент для студентов, сотрудников и гостей ИРНИТУ.">
+  <meta property="og:title" content="Ассистент студента — Байкальский центр ИИ">
+  <meta property="og:description" content="ИИ-ассистент для студентов, сотрудников и гостей ИРНИТУ.">
+  <meta property="og:image" content="Studentassistant_image.jpg">
+  <meta name="theme-color" content="#141414">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__bar">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <nav class="nav" aria-label="Основное меню">
+        <a class="nav__link" href="about.html">О центре</a>
+        <a class="nav__link" href="cases.html" aria-current="page">Кейсы</a>
+        <a class="nav__link" href="agency.html">ИИ Агентство</a>
+        <div class="nav__item">
+          <button class="nav__link nav__link--drop" type="button" aria-expanded="false" aria-controls="directions-menu">
+            Направления деятельности
+            <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav__drop" id="directions-menu">
+            <a href="machine-vision.html">Промышленный ИИ и машинное зрение</a>
+            <a href="assistants.html">ИИ-ассистенты и базы знаний</a>
+            <a href="learning.html">Обучение и вовлечение персонала</a>
+          </div>
+        </div>
+      </nav>
+      <a class="btn btn--light" href="index.html#consult">Получить консультацию</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="case-page">
+    <div class="container">
+      <section class="case-banner case-banner--photo">
+        <div class="case-banner__top">
+          <nav class="crumbs" aria-label="Хлебные крошки">
+            <a href="index.html">Главная</a>
+            <span aria-hidden="true">/</span>
+            <a href="cases.html">Кейсы</a>
+            <span aria-hidden="true">/</span>
+            <span>Ассистент студента</span>
+          </nav>
+          <ul class="case-tags">
+            <li>Чат-бот</li>
+            <li>NLP</li>
+            <li>База знаний</li>
+            <li>MAX</li>
+          </ul>
+        </div>
+        <div class="case-banner__body">
+          <h1>Ассистент студента</h1>
+          <p class="case-banner__lead">ИИ-ассистент для студентов, сотрудников и гостей ИРНИТУ</p>
+          <p class="case-banner__client">Заказчик: Управление по молодёжной политике ИРНИТУ</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="case-title">Описание кейса</h2>
+        <div class="case-pair">
+          <article class="card">
+            <h3>Проблема</h3>
+            <p>Первокурсникам сложно адаптироваться к учёбе и жизни в университете, не хватает сведений о процедурах, сервисах и возможностях.</p>
+          </article>
+          <article class="card">
+            <h3>Задача</h3>
+            <p>Консультировать студентов по всем вопросам университетской жизни и работать по принципу «одного окна».</p>
+          </article>
+        </div>
+        <ul class="case-flow">
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 10 12 6l9 4-9 4-9-4Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 12v3.2c0 .5 2.1 2.3 5 2.3s5-1.8 5-2.3V12" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+            <div>
+              <h3>Студент</h3>
+              <p>Получает ответы об университете и его службах.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v10m0 0 3.5-3.5M12 14 8.5 10.5M5 19h14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div>
+              <h3>Задача</h3>
+              <p>Вопрос о процедурах, службах или расписании.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.1" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="7" r="2.1" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="17" r="2.1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 11.2 15 8.2M8 12.8 15 15.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div>
+              <h3>Решение</h3>
+              <p>Ответ по базе знаний и индивидуальное расписание.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="8" y="8" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 4v4M14 4v4M10 16v4M14 16v4M4 10h4M4 14h4M16 10h4M16 14h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div>
+              <h3>Технологии</h3>
+              <p>Обработка естественного языка, база вопросно-ответных пар, интеграция с расписанием.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4.5c3.6 0 6.5 1 6.5 2.2S15.6 9 12 9 5.5 8 5.5 6.7 8.4 4.5 12 4.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.5 6.8v3.2c0 1.2 2.9 2.2 6.5 2.2s6.5-1 6.5-2.2V6.8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.5 10.2v3.1c0 1.2 2.9 2.2 6.5 2.2s6.5-1 6.5-2.2v-3.1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+            <div>
+              <h3>Коротко</h3>
+              <p>«Одно окно» к службам университета в мессенджере MAX.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <ul class="case-stats case-stats--3">
+          <li><strong>19</strong><span>тематических модулей</span></li>
+          <li><strong>374</strong><span>вопросно-ответные пары</span></li>
+          <li><strong>MAX</strong><span>мессенджер, в котором работает ассистент</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <ol class="x-track">
+          <li>
+            <span class="x-mark">Сделано</span>
+            <h3>Ассистент разработан</h3>
+            <p>19 модулей и 374 вопросно-ответные пары.</p>
+          </li>
+          <li>
+            <span class="x-mark">Сделано</span>
+            <h3>Бот работает в MAX</h3>
+            <p>Ассистент отвечает в мессенджере MAX.</p>
+          </li>
+          <li class="is-next">
+            <span class="x-mark">Развитие</span>
+            <h3>Запись и справки</h3>
+            <p>Запись в кружки и секции, получение справок.</p>
+          </li>
+          <li class="is-next">
+            <span class="x-mark">Развитие</span>
+            <h3>Другие университеты</h3>
+            <p>Решение для других университетов.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="case-title">Ассистент в мессенджере MAX</h2>
+        <div class="shot-grid shot-grid--3">
+          <figure>
+            <div class="shot-empty" role="img" aria-label="Ответы о службах и процедурах"></div>
+            <figcaption>
+              <strong>Об университете</strong>
+              <span>Ответы о службах и процедурах</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <div class="shot-empty" role="img" aria-label="Индивидуальное расписание студента"></div>
+            <figcaption>
+              <strong>Расписание</strong>
+              <span>Индивидуальное расписание студента</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <div class="shot-empty" role="img" aria-label="Все ключевые вопросы студентов"></div>
+            <figcaption>
+              <strong>19 модулей</strong>
+              <span>Все ключевые вопросы студентов</span>
+            </figcaption>
+          </figure>
+        </div>
+        <article class="shot-split">
+          <div class="shot-empty" role="img" aria-label="Веб-сервис наполнения базы знаний ассистента"></div>
+          <div>
+            <h3>База знаний обновляется</h3>
+            <p>Сотрудники пополняют базу через веб-сервис, ассистент дообучается на запросах студентов.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--cta">
+      <div class="container">
+        <div class="consult">
+          <form class="form consult__form" id="consult-form" novalidate>
+            <h2>Обсудить похожую задачу</h2>
+            <label class="field">
+              <span class="sr-only">Имя</span>
+              <input type="text" name="name" placeholder="Имя*" autocomplete="name" required>
+              <span class="field__hint"></span>
+            </label>
+            <label class="field">
+              <span class="sr-only">Номер телефона</span>
+              <input type="tel" name="phone" placeholder="Номер телефона*" autocomplete="tel" inputmode="tel" required>
+              <span class="field__hint"></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="consent">
+              <span class="check__box" aria-hidden="true"></span>
+              <span class="check__text">Согласен на обработку персональных данных</span>
+            </label>
+            <span class="field__hint field__hint--check"></span>
+            <button class="btn btn--mint form__submit" type="submit">Отправить</button>
+          </form>
+          <div class="consult__success" hidden>
+            <h2>Ваша заявка принята</h2>
+            <p>Мы вам перезвоним в течение одного рабочего дня</p>
+          </div>
+        </div>
+        <div class="case-pager">
+          <span class="case-pager__btn is-disabled">Предыдущий кейс</span>
+          <a class="case-pager__btn case-pager__btn--next" href="case-eco.html">Следующий кейс →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <div class="footer__contacts">
+        <p class="footer__label">Контакты</p>
+        <a href="mailto:bcii@ex.istu.edu">bcii@ex.istu.edu</a>
+        <p>Руководитель центра — Юрий Басиров</p>
+        <a href="mailto:basirovyr@ex.istu.edu">basirovyr@ex.istu.edu</a>
+        <a href="tel:+79501458185">8 (950) 145-81-85</a>
+        <a class="footer__policy" href="#policy">Политика организации в отношении обработки персональных данных</a>
+      </div>
+      <div class="footer__social">
+        <p class="footer__label">Социальные сети</p>
+        <a class="footer__tg" href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+          <img src="img/telegram.png" width="24" height="24" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="nav-panel" id="mobile-nav" hidden>
+    <div class="nav-panel__top">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <button class="nav-panel__close" type="button" aria-label="Закрыть меню">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="nav-panel__links" aria-label="Мобильное меню">
+      <a href="about.html">О центре</a>
+      <a href="cases.html" aria-current="page">Кейсы</a>
+      <a href="agency.html">ИИ Агентство</a>
+      <button class="nav-panel__drop" type="button" aria-expanded="false">
+        Направления деятельности
+        <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="nav-panel__sub" hidden>
+        <a href="machine-vision.html">Промышленный ИИ и машинное зрение</a>
+        <a href="assistants.html">ИИ-ассистенты и базы знаний</a>
+        <a href="learning.html">Обучение и вовлечение персонала</a>
+      </div>
+    </nav>
+    <a class="btn btn--light nav-panel__cta" href="index.html#consult">Получить консультацию</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Байкал без пластика — Байкальский центр ИИ</title>
+  <meta name="description" content="Научная и игровая платформа мониторинга пластикового загрязнения.">
+  <meta property="og:title" content="Байкал без пластика — Байкальский центр ИИ">
+  <meta property="og:description" content="Научная и игровая платформа мониторинга пластикового загрязнения.">
+  <meta property="og:image" content="Baikalwithoutplastic_image.jpg">
+  <meta name="theme-color" content="#141414">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__bar">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <nav class="nav" aria-label="Основное меню">
+        <a class="nav__link" href="about.html">О центре</a>
+        <a class="nav__link" href="cases.html" aria-current="page">Кейсы</a>
+        <a class="nav__link" href="agency.html">ИИ Агентство</a>
+        <div class="nav__item">
+          <button class="nav__link nav__link--drop" type="button" aria-expanded="false" aria-controls="directions-menu">
+            Направления деятельности
+            <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav__drop" id="directions-menu">
+            <a href="machine-vision.html">Промышленный ИИ и машинное зрение</a>
+            <a href="assistants.html">ИИ-ассистенты и базы знаний</a>
+            <a href="learning.html">Обучение и вовлечение персонала</a>
+          </div>
+        </div>
+      </nav>
+      <a class="btn btn--light" href="index.html#consult">Получить консультацию</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="case-page">
+    <div class="container">
+      <section class="case-banner case-banner--art">
+        <div class="case-banner__top">
+          <nav class="crumbs" aria-label="Хлебные крошки">
+            <a href="index.html">Главная</a>
+            <span aria-hidden="true">/</span>
+            <a href="cases.html">Кейсы</a>
+            <span aria-hidden="true">/</span>
+            <span>Байкал без пластика</span>
+          </nav>
+          <ul class="case-tags">
+            <li>YOLO</li>
+            <li>GigaChat</li>
+            <li>RAG</li>
+            <li>ИИ-агенты</li>
+            <li>Геоаналитика</li>
+          </ul>
+        </div>
+        <div class="case-banner__body">
+          <h1>Байкал без пластика</h1>
+          <p class="case-banner__lead">Научная и игровая платформа мониторинга пластикового загрязнения</p>
+          <p class="case-banner__client">Разработчик: Байкальский центр ИИ ИРНИТУ</p>
+        </div>
+        <img class="case-banner__art" src="Baikalwithoutplastic_image.jpg" alt="">
+      </section>
+    </div>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="case-title">Описание кейса</h2>
+        <div class="case-pair">
+          <article class="card">
+            <h3>Проблема</h3>
+            <p>Данные о загрязнении разрознены, фото, описания и координаты обрабатываются вручную, территории и периоды трудно сопоставить.</p>
+          </article>
+          <article class="card">
+            <h3>Задача</h3>
+            <p>Платформа, которая объединяет сбор наблюдений, проверку и анализ данных и вовлекает школьников и волонтёров.</p>
+          </article>
+        </div>
+        <ul class="case-flow">
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.5 19c1.2-3 3.4-4.5 6.5-4.5s5.3 1.5 6.5 4.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div>
+              <h3>Участник</h3>
+              <p>Выполняет игровые задания и фотографирует пластик.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v10m0 0 3.5-3.5M12 14 8.5 10.5M5 19h14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div>
+              <h3>Задача</h3>
+              <p>Найти и сфотографировать пластиковое изделие.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.1" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="7" r="2.1" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17" cy="17" r="2.1" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 11.2 15 8.2M8 12.8 15 15.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div>
+              <h3>Решение</h3>
+              <p>Модель распознаёт пластик, наблюдение попадает на карту, в аналитику и к ИИ-помощникам.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="8" y="8" width="8" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 4v4M14 4v4M10 16v4M14 16v4M4 10h4M4 14h4M16 10h4M16 14h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+            <div>
+              <h3>Технологии</h3>
+              <p>YOLO, GigaChat, RAG, агенты построения графиков и прогнозов, открытое API.</p>
+            </div>
+          </li>
+          <li>
+            <span class="case-flow__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4.5c3.6 0 6.5 1 6.5 2.2S15.6 9 12 9 5.5 8 5.5 6.7 8.4 4.5 12 4.5Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.5 6.8v3.2c0 1.2 2.9 2.2 6.5 2.2s6.5-1 6.5-2.2V6.8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.5 10.2v3.1c0 1.2 2.9 2.2 6.5 2.2s6.5-1 6.5-2.2v-3.1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></span>
+            <div>
+              <h3>Коротко</h3>
+              <p>Гражданская наука в формате игры.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <ul class="case-stats">
+          <li><strong>1 037</strong><span>уникальных записей в базе наблюдений</span></li>
+          <li><strong>8</strong><span>отслеживаемых видов пластика</span></li>
+          <li><strong>100+</strong><span>участников тестирований</span></li>
+          <li><strong>4</strong><span>способа передачи данных: приложение, веб-форма, API, Excel</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="case-pair">
+          <article class="card">
+            <h3>Было</h3>
+            <ul class="case-points">
+              <li>Разрозненные результаты экспедиций и акций.</li>
+              <li>Ручная обработка фото, описаний и координат.</li>
+              <li>Территории трудно сопоставить.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Стало</h3>
+            <ul class="case-points">
+              <li>Открытое API объединяет источники.</li>
+              <li>Распознавание пластика в приложении.</li>
+              <li>Карта, аналитика и ИИ-помощники.</li>
+              <li>Эксперт проверяет спорные записи.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="case-title">Игра шаг за шагом</h2>
+        <div class="shot-grid shot-grid--3">
+          <figure>
+            <img src="baikal_image.png" alt="Участник фотографирует находку">
+            <figcaption>
+              <strong>Фотофиксация</strong>
+              <span>Участник фотографирует находку</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="baikal_image-1.png" alt="Тип пластика и совет по переработке">
+            <figcaption>
+              <strong>Распознавание</strong>
+              <span>Тип пластика и совет по переработке</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <div class="shot-empty" role="img" aria-label="Находка попадает в научную платформу"></div>
+            <figcaption>
+              <strong>На карте</strong>
+              <span>Находка попадает в научную платформу</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="shot-grid shot-grid--2">
+          <img src="baikal_map-only.png" alt="Карта наблюдений пластикового загрязнения">
+          <img src="baikal_agent-result.png" alt="График, построенный ИИ-агентом по данным платформы">
+        </div>
+        <article class="shot-split">
+          <div class="shot-empty" role="img" aria-label="Школьники тестируют приложение «Байкал без пластика»"></div>
+          <div>
+            <h3>Тестирование в школах</h3>
+            <p>Приложение прошли школьники, волонтёры и участники Байкальского IT-форума и экологического конгресса.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--cta">
+      <div class="container">
+        <div class="consult">
+          <form class="form consult__form" id="consult-form" novalidate>
+            <h2>Обсудить похожую задачу</h2>
+            <label class="field">
+              <span class="sr-only">Имя</span>
+              <input type="text" name="name" placeholder="Имя*" autocomplete="name" required>
+              <span class="field__hint"></span>
+            </label>
+            <label class="field">
+              <span class="sr-only">Номер телефона</span>
+              <input type="tel" name="phone" placeholder="Номер телефона*" autocomplete="tel" inputmode="tel" required>
+              <span class="field__hint"></span>
+            </label>
+            <label class="check">
+              <input type="checkbox" name="consent">
+              <span class="check__box" aria-hidden="true"></span>
+              <span class="check__text">Согласен на обработку персональных данных</span>
+            </label>
+            <span class="field__hint field__hint--check"></span>
+            <button class="btn btn--mint form__submit" type="submit">Отправить</button>
+          </form>
+          <div class="consult__success" hidden>
+            <h2>Ваша заявка принята</h2>
+            <p>Мы вам перезвоним в течение одного рабочего дня</p>
+          </div>
+        </div>
+        <div class="case-pager">
+          <a class="case-pager__btn" href="case-wing.html">Предыдущий кейс</a>
+          <a class="case-pager__btn case-pager__btn--next" href="case-sort.html">Следующий кейс →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <div class="footer__contacts">
+        <p class="footer__label">Контакты</p>
+        <a href="mailto:bcii@ex.istu.edu">bcii@ex.istu.edu</a>
+        <p>Руководитель центра — Юрий Басиров</p>
+        <a href="mailto:basirovyr@ex.istu.edu">basirovyr@ex.istu.edu</a>
+        <a href="tel:+79501458185">8 (950) 145-81-85</a>
+        <a class="footer__policy" href="#policy">Политика организации в отношении обработки персональных данных</a>
+      </div>
+      <div class="footer__social">
+        <p class="footer__label">Социальные сети</p>
+        <a class="footer__tg" href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+          <img src="img/telegram.png" width="24" height="24" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="nav-panel" id="mobile-nav" hidden>
+    <div class="nav-panel__top">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <button class="nav-panel__close" type="button" aria-label="Закрыть меню">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="nav-panel__links" aria-label="Мобильное меню">
+      <a href="about.html">О центре</a>
+      <a href="cases.html" aria-current="page">Кейсы</a>
+      <a href="agency.html">ИИ Агентство</a>
+      <button class="nav-panel__drop" type="button" aria-expanded="false">
+        Направления деятельности
+        <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="nav-panel__sub" hidden>
+        <a href="machine-vision.html">Промышленный ИИ и машинное зрение</a>
+        <a href="assistants.html">ИИ-ассистенты и базы знаний</a>
+        <a href="learning.html">Обучение и вовлечение персонала</a>
+      </div>
+    </nav>
+    <a class="btn btn--light nav-panel__cta" href="index.html#consult">Получить консультацию</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

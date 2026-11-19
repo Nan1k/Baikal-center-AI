@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кейсы — Байкальский центр ИИ</title>
+  <meta name="description" content="Реальные проекты и действующие разработки Байкальского центра ИИ.">
+  <meta name="theme-color" content="#141414">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__bar">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+
+      <nav class="nav" aria-label="Основное меню">
+        <a class="nav__link" href="about.html">О центре</a>
+        <a class="nav__link" href="cases.html" aria-current="page">Кейсы</a>
+        <a class="nav__link" href="agency.html">ИИ Агентство</a>
+        <div class="nav__item">
+          <button class="nav__link nav__link--drop" type="button" aria-expanded="false" aria-controls="directions-menu">
+            Направления деятельности
+            <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav__drop" id="directions-menu">
+            <a href="machine-vision.html">Промышленный ИИ и машинное зрение</a>
+            <a href="assistants.html">ИИ-ассистенты и базы знаний</a>
+            <a href="learning.html">Обучение и вовлечение персонала</a>
+          </div>
+        </div>
+      </nav>
+
+      <a class="btn btn--light" href="index.html#consult">Получить консультацию</a>
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="cases-page">
+    <div class="container">
+      <nav class="crumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a>
+        <span aria-hidden="true">/</span>
+        <span>Кейсы</span>
+      </nav>
+
+      <h1>Кейсы</h1>
+      <p class="cases-lead">Реальные проекты и действующие разработки</p>
+
+      <div class="tabs" role="tablist" aria-label="Категории кейсов">
+        <button class="tab is-active" type="button" role="tab" aria-selected="true" data-filter="all">Все</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-filter="mashinnoe-zrenie">Машинное зрение</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-filter="promyshlennyi-ii">Промышленный ИИ</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-filter="ii-assistenty">ИИ-ассистенты</button>
+        <button class="tab" type="button" role="tab" aria-selected="false" data-filter="ekologiya-i-nauka">Экология и наука</button>
+      </div>
+
+      <div class="cases">
+        <a class="case" href="case-student.html" data-tags="ii-assistenty">
+          <div class="case__media">
+            <img src="Studentassistant_image.jpg" width="440" height="274" alt="Ассистент студента">
+            <span class="case__tags"><span class="case__tag">ИИ-ассистенты</span></span>
+          </div>
+          <h2>Ассистент студента</h2>
+        </a>
+        <a class="case" href="case-eco.html" data-tags="ii-assistenty ekologiya-i-nauka">
+          <div class="case__media">
+            <img src="EnvironmentalAssistant_image.jpg" width="440" height="274" alt="Экологический ассистент">
+            <span class="case__tags"><span class="case__tag case__tag--extra">Экология и наука</span><span class="case__tag">ИИ-ассистенты</span></span>
+          </div>
+          <h2>Экологический ассистент</h2>
+        </a>
+        <a class="case" href="case-angarsk.html" data-tags="ii-assistenty">
+          <div class="case__media">
+            <img src="Botforsocialservices_image.jpg" width="440" height="274" alt="Бот для социальных служб г. Ангарска">
+            <span class="case__tags"><span class="case__tag">ИИ-ассистенты</span></span>
+          </div>
+          <h2>Бот для социальных служб г. Ангарска</h2>
+        </a>
+        <a class="case" href="case-endoscan.html" data-tags="mashinnoe-zrenie">
+          <div class="case__media">
+            <img src="Endoscancylinder_image.jpg" width="440" height="274" alt="Эндоскан-цилиндр">
+            <span class="case__tags"><span class="case__tag">Машинное зрение</span></span>
+          </div>
+          <h2>Эндоскан-цилиндр</h2>
+        </a>
+        <a class="case" href="case-wing.html" data-tags="promyshlennyi-ii">
+          <div class="case__media">
+            <img src="shapingofwingcomponents_image.jpg" width="440" height="274" alt="ПО для формообразования деталей крыла">
+            <span class="case__tags"><span class="case__tag">Промышленный ИИ</span></span>
+          </div>
+          <h2>ПО для формообразования деталей крыла</h2>
+        </a>
+        <a class="case" href="case-baikal.html" data-tags="ekologiya-i-nauka">
+          <div class="case__media">
+            <img src="Baikalwithoutplastic_image.jpg" width="440" height="274" alt="Байкал без пластика">
+            <span class="case__tags"><span class="case__tag">Экология и наука</span></span>
+          </div>
+          <h2>Байкал без пластика</h2>
+        </a>
+        <a class="case" href="case-sort.html" data-tags="mashinnoe-zrenie ekologiya-i-nauka">
+          <div class="case__media">
+            <img src="ReFabrika_image.jpg" width="440" height="274" alt="Сортировка пластиковых отходов">
+            <span class="case__tags"><span class="case__tag case__tag--extra">Экология и наука</span><span class="case__tag">Машинное зрение</span></span>
+          </div>
+          <h2>Сортировка пластиковых отходов</h2>
+        </a>
+        <a class="case" href="case-home.html" data-tags="ii-assistenty">
+          <div class="case__media">
+            <img src="SmartHome_image.jpg" width="440" height="274" alt="Умная квартира">
+            <span class="case__tags"><span class="case__tag">ИИ-ассистенты</span></span>
+          </div>
+          <h2>Умная квартира</h2>
+        </a>
+        <a class="case" href="case-mira.html" data-tags="mashinnoe-zrenie promyshlennyi-ii">
+          <div class="case__media">
+            <img src="World_image.jpg" width="440" height="274" alt="ПО «МИРА»">
+            <span class="case__tags"><span class="case__tag case__tag--extra">Промышленный ИИ</span><span class="case__tag">Машинное зрение</span></span>
+          </div>
+          <h2>ПО «МИРА»</h2>
+        </a>
+        <a class="case" href="case-employees.html" data-tags="ii-assistenty">
+          <div class="case__media">
+            <img src="employee_development.jpg" width="440" height="274" alt="Развитие сотрудников">
+            <span class="case__tags"><span class="case__tag">ИИ-ассистенты</span></span>
+          </div>
+          <h2>Развитие сотрудников</h2>
+        </a>
+        <a class="case" href="case-gamification.html" data-tags="ii-assistenty promyshlennyi-ii">
+          <div class="case__media">
+            <img src="gamification.jpg" width="440" height="274" alt="Геймификация предприятий">
+            <span class="case__tags"><span class="case__tag case__tag--extra">Промышленный ИИ</span><span class="case__tag">ИИ-ассистенты</span></span>
+          </div>
+          <h2>Геймификация предприятий</h2>
+        </a>
+      </div>
+      <p class="cases-empty" hidden>В этой категории пока нет проектов</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <div class="footer__contacts">
+        <p class="footer__label">Контакты</p>
+        <a href="mailto:bcii@ex.istu.edu">bcii@ex.istu.edu</a>
+        <p>Руководитель центра — Юрий Басиров</p>
+        <a href="mailto:basirovyr@ex.istu.edu">basirovyr@ex.istu.edu</a>
+        <a href="tel:+79501458185">8 (950) 145-81-85</a>
+        <a class="footer__policy" href="#policy">Политика организации в отношении обработки персональных данных</a>
+      </div>
+      <div class="footer__social">
+        <p class="footer__label">Социальные сети</p>
+        <a class="footer__tg" href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+          <img src="img/telegram.png" width="24" height="24" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="nav-panel" id="mobile-nav" hidden>
+    <div class="nav-panel__top">
+      <a class="logo" href="index.html">
+        <span class="logo__name">Байкальский<br>центр ИИ</span>
+        <img src="img/logo.svg" width="61" height="40" alt="">
+      </a>
+      <button class="nav-panel__close" type="button" aria-label="Закрыть меню">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="nav-panel__links" aria-label="Мобильное меню">
+      <a href="about.html">О центре</a>
+      <a href="cases.html" aria-current="page">Кейсы</a>
+      <a href="agency.html">ИИ Агентство</a>
+      <button class="nav-panel__drop" type="button" aria-expanded="false">
+        Направления деятельности
+        <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="nav-panel__sub" hidden>
+        <a href="machine-vision.html">Промышленный ИИ и машинное зрение</a>
+        <a href="assistants.html">ИИ-ассистенты и базы знаний</a>
+        <a href="learning.html">Обучение и вовлечение персонала</a>
+      </div>
+    </nav>
+    <a class="btn btn--light nav-panel__cta" href="index.html#consult">Получить консультацию</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
